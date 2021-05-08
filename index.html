@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+     
+    <title>Anuradha Fund</title>
+</head>
+<style>
+    body {
+        background-color : #f7f7f7
+    }
+    .header {
+        text-align: center;
+        color: black;
+    }
+    .header,div.body {
+        margin: 50px 500px;
+        font-size:18px;
+        
+    }
+    .founder{
+        font-size:20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    div.body {
+        border: 1px solid #e5e5e5;
+        padding: 20px;
+        border-radius: 5px;
+        background-color : pink
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    #heading, #prof-img {
+        margin-top:100px;
+    }
+    #mainNav {
+        background-color:black;
+        
+    }
+    #mainNav a, .link {
+        color: #FFF !important;
+    }
+    .hide {
+        display:none;
+    }
+    
+.greeting {
+  /* width: 100px;
+  height: 100px; */
+  position: relative;
+  animation: mymove 5s infinite;
+  
+}
+.msg .marquee{
+  animation-timing-function: ease-in;
+  font-family: fantasy;
+  color: darkviolet;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 150px;}
+}
+.modal-title {
+  font-style: italic;
+    font-family: cursive;
+    color: tomato;
+    font-weight: bold;
+}
+</style>
+<script>
+    function handleClick(e) {
+        var urlPlaceholder =  document.getElementById('urlPlaceholder');
+        e.preventDefault();
+        urlPlaceholder.classList.remove('hide');
+    }
+    document.addEventListener("DOMContentLoaded", function(event) {
+    // Your code to run since DOM is loaded and ready
+      $('#open-model-window').click();
+    });
+</script>
+<body>
+    
+    <header>
+    <!-- ======= Header/ Navbar ======= -->
+  <nav class="navbar navbar-b  navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="#page-top">Anuradha Charitable Trust</a> <span style="color:orange">Baligondu Prerne</span>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  <main id="main">
+    <!-- <section id="heading" class="about-mf sect-pt12 route">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Anuradha Charitable Trust</h1>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+
+    <section id="prof-img" class="about-mf sect-pt route">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">   
+                    <div class="profile-header-img">
+                        <img class="rounded-circle" src="./assets/mom2.jpg?sz=120" width="280" height="280"/>
+                        
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+        <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-primary hide" id="open-model-window" data-toggle="modal" data-target="#myModal">
+          Open modal
+        </button>
+      
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            
+              <!-- Modal Header -->
+              <div class="modal-header text-center">
+                <h2 class="modal-title ">Happy Mothers Day dear Amma!!</h2>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              
+              <!-- Modal body -->
+              <div class="modal-body">
+                <section>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-sm-12 " style="margin-bottom: 10px;"><div class="msg greeting"><h3 class="marquee">God bless you with good health and all happiness!!</h3></div></div>
+                      </div>
+                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="./assets/mothersday-greeting.png" alt="First slide" style="height:400px">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="./assets/mom3.jpg" alt="Second slide" style="height:400px">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="./assets/mom.jpg" alt="Second slide" style="height:400px">
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="./assets/mom1.jpg" alt="Second slide" style="height:400px">
+                            </div>
+                           
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                  </div>
+              </section>
+              </div>
+              
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class='founder'>
+                Founder/CEO: Anuradha Gokak!! 
+            </div>
+        </div>
+    </section>
+    <!-- <div class="body">
+       <p> Hello Anuradha,</p> 
+       <p>Welcome to Anuradha Bharadwaj charitable Trust. One of the best social service company of India.</p>
+        <p> We are offering you credit card, you don't need to submit any documents as proof. Just click below and add any of your bank account. we will verify and let you if you are eligible. </p>
+        
+        <div class="btns">
+            <a href="/Iframe.html" target="_blank" rel="noopener noreferrer">Add account</a>
+        </div>
+        
+    </div> -->
+    <section id="about" class="about-mf sect-pt route">
+        <div class="container text-center">
+            <div class="card text-white bg-info sm-12 " style="">
+                <div class="card-header">Hello All,</div>
+                <div class="card-body">
+                <h5 class="card-title"></h5>
+                <p class="card-text text-white">
+                    <p>Welcome to Anuradha Gokak charitable Trust. One of the leading social service company of India.</p>
+
+                    <!-- <p> We are offering you credit card, you don't need to submit any documents as proof. Just click below and add any of your bank account. we will verify and let you if you are eligible. </p> -->
+                    
+                    
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <iframe  id="urlPlaceholder" src="https://www.google.com/webhp?igu=1&safe=active" width="100%" class="hide" height="500" style="border:1px solid black;">
+            </iframe>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center" style="margin-bottom: 10px;"><div class="msg"><h4>We are commited to provide </h4></div></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card text-white bg-primary mb-3" style="height:200px;">
+                        <div class="card-header">Child Education</div>
+                        <div class="card-body">
+                          <p class="card-text">We wish to provide education to every child of India and make them strong and independent.</p>
+                        </div>
+                      </div>
+                     
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white bg-secondary mb-3" style="height:200px;">
+                        <div class="card-header">Girl Empowerment</div>
+                        <div class="card-body">
+                          <p class="card-text">We need women at all levels, including the top, to change the dynamic, reshape the conversation, to make sure women’s voices are heard and heeded, not overlooked and ignored.</p>
+                        </div>
+                      </div>
+                      
+                </div>
+                <div class="col-sm-4">
+                    <div class="card text-white bg-success mb-3" style="height:200px;" >
+                        <div class="card-header">Green Environment</div>
+                        <div class="card-body">
+                          <p class="card-text">we wish to bring awairness climate change and global warming.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center" style="margin-bottom: 10px;"><div class="msg"><h4>With Blessings of</h4></div></div>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      
+                      
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/grandpa.jpg" alt="Third slide" style="height:600px">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./assets/god2.jpg" alt="Second slide" style="height:600px">
+                      </div>
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./assets/god1.jpg" alt="First slide" style="height:600px">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </section>
+    
+    </main>
+
+    
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+      
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="">Mission Anuradha!!</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
